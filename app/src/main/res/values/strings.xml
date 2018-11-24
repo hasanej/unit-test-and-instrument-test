@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Bundesliga Schedule</string>
+
+    <string name="text_empty">-</string>
+    <string name="text_lineups">Lineups</string>
+    <string name="text_goal_keeper">Goal Keeper</string>
+    <string name="text_defense">Defense</string>
+    <string name="text_midfield">Midfield</string>
+    <string name="text_forward">Forward</string>
+    <string name="text_subtitutes">Subtitutes</string>
+
+    <string name="bottom_nav_last_match">Last Match</string>
+    <string name="bottom_nav_next_match">Next Match</string>
+    <string name="bottom_nav_favorites">Favorites</string>
+</resources>
