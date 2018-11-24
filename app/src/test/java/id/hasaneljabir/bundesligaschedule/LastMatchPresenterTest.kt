@@ -40,7 +40,7 @@ class LastMatchPresenterTest {
         match = EventResponse(event)
         footballMatch = Flowable.just(match)
         presenter = LastMatchPresenter(view, matchRepositoryImplementation, scheduler)
-        `when`(matchRepositoryImplementation.getLastMatch("4328")).thenReturn(footballMatch)
+        `when`(matchRepositoryImplementation.getLastMatch("4331")).thenReturn(footballMatch)
     }
 
     @Test
