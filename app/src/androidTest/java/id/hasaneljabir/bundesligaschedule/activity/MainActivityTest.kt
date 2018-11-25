@@ -31,6 +31,7 @@ class MainActivityTest {
 
     @Test
     fun mainActivityTest() {
+        Thread.sleep(3000)
         val recyclerView = onView(
             allOf(
                 withId(R.id.rvLastMatch),
@@ -42,6 +43,7 @@ class MainActivityTest {
         )
         recyclerView.perform(actionOnItemAtPosition<ViewHolder>(14, click()))
 
+        Thread.sleep(3000)
         val actionMenuItemView = onView(
             allOf(
                 withId(R.id.add_to_favorite), withContentDescription("Favorites"),
@@ -57,6 +59,7 @@ class MainActivityTest {
         )
         actionMenuItemView.perform(click())
 
+        Thread.sleep(3000)
         val appCompatImageButton = onView(
             allOf(
                 withContentDescription("Navigate up"),
@@ -75,6 +78,7 @@ class MainActivityTest {
         )
         appCompatImageButton.perform(click())
 
+        Thread.sleep(3000)
         val recyclerView2 = onView(
             allOf(
                 withId(R.id.rvLastMatch),
@@ -86,6 +90,7 @@ class MainActivityTest {
         )
         recyclerView2.perform(actionOnItemAtPosition<ViewHolder>(0, click()))
 
+        Thread.sleep(3000)
         val actionMenuItemView2 = onView(
             allOf(
                 withId(R.id.add_to_favorite), withContentDescription("Favorites"),
@@ -101,6 +106,7 @@ class MainActivityTest {
         )
         actionMenuItemView2.perform(click())
 
+        Thread.sleep(3000)
         val appCompatImageButton2 = onView(
             allOf(
                 withContentDescription("Navigate up"),
@@ -119,6 +125,7 @@ class MainActivityTest {
         )
         appCompatImageButton2.perform(click())
 
+        Thread.sleep(3000)
         val bottomNavigationItemView = onView(
             allOf(
                 withId(R.id.nextMatch), withContentDescription("Next Match"),
@@ -134,6 +141,7 @@ class MainActivityTest {
         )
         bottomNavigationItemView.perform(click())
 
+        Thread.sleep(3000)
         val recyclerView3 = onView(
             allOf(
                 withId(R.id.rvNextMatch),
@@ -145,6 +153,7 @@ class MainActivityTest {
         )
         recyclerView3.perform(actionOnItemAtPosition<ViewHolder>(14, click()))
 
+        Thread.sleep(3000)
         val actionMenuItemView3 = onView(
             allOf(
                 withId(R.id.add_to_favorite), withContentDescription("Favorites"),
@@ -160,6 +169,7 @@ class MainActivityTest {
         )
         actionMenuItemView3.perform(click())
 
+        Thread.sleep(3000)
         val appCompatImageButton3 = onView(
             allOf(
                 withContentDescription("Navigate up"),
@@ -178,6 +188,7 @@ class MainActivityTest {
         )
         appCompatImageButton3.perform(click())
 
+        Thread.sleep(3000)
         val recyclerView4 = onView(
             allOf(
                 withId(R.id.rvNextMatch),
@@ -189,6 +200,7 @@ class MainActivityTest {
         )
         recyclerView4.perform(actionOnItemAtPosition<ViewHolder>(0, click()))
 
+        Thread.sleep(3000)
         val actionMenuItemView4 = onView(
             allOf(
                 withId(R.id.add_to_favorite), withContentDescription("Favorites"),
@@ -204,6 +216,7 @@ class MainActivityTest {
         )
         actionMenuItemView4.perform(click())
 
+        Thread.sleep(3000)
         val appCompatImageButton4 = onView(
             allOf(
                 withContentDescription("Navigate up"),
@@ -222,6 +235,7 @@ class MainActivityTest {
         )
         appCompatImageButton4.perform(click())
 
+        Thread.sleep(3000)
         val bottomNavigationItemView2 = onView(
             allOf(
                 withId(R.id.favorites), withContentDescription("Favorites"),
